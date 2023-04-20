@@ -1,0 +1,61 @@
+.login_title {
+    text-align: center;
+}
+
+
+.login_error {
+    color: red;
+    font-weight: bold;
+    margin: 10px auto;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+/* Style the form container */
+.login_form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+/* Style the form inputs */
+.login_form input[type="text"],
+.login_form input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the form submit button */
+.login_form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.login_form a {
+    text-decoration: none;
+    color: #ccc;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* Style the link on hover */
+.login_form a:hover {
+    color: rgb(0, 0, 0);
+}

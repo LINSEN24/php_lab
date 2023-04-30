@@ -22,7 +22,7 @@ form.addEventListener('submit', function(event) {
     // Handle the JSON response here
     if (response.data.success) {
       // Redirect to the dashboard page
-      window.location.href = '../index.php';
+      window.location.href = '../php/service/homepage.php';
     } else {
       // Display an error message
       errorDiv.innerHTML = 'Invalid account or password.';

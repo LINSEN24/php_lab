@@ -17,7 +17,8 @@ if($user==null){
 }else if ($user->getAccount() === $data->account && $user->getPassword() === $data->password) {
   session_start();
   $_SESSION['username']=$user->getUsername();
-
+  $_SESSION['role']=$user->getRole();
+  
   $response = array('success' => true);
   echo json_encode($response);
 }else{
